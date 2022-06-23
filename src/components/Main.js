@@ -1,6 +1,7 @@
 import React from "react";
 
 import TypeWriterEffect from 'react-typewriter-effect';
+import Hire from "./Hire";
 
 import meImg from "../img/me_header_800-800.png";
 
@@ -33,6 +34,7 @@ function Main () {
           </div>
           <div></div>
         </div>
+        <Hire />
       </div>
     </div>
   );
