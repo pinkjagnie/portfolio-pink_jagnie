@@ -1,7 +1,7 @@
 .aboutContainer {
   height: 175vh;
   width: 100%;
-  background-color: #dfe4f4;
+  background-color: #f9f9f9;
 }
 
 .aboutPhoto img {
@@ -100,4 +100,10 @@
 .icon {
   padding-right: 0.8rem;
   color: #ff68bc;
+}
+
+@media (min-width: 1024px) {
+  .aboutContainer {
+    background-color: #dfe4f4;
+  }  
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import hireImg from "../img/sheep_hire_1200-1400.png";
+import hireImg from "../img/sheep_hire_1200-1700.png";
 
 import styles from "./hire.module.css";
 
