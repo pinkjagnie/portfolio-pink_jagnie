@@ -2,7 +2,7 @@ import React from "react";
 
 import { AiFillHtml5, AiFillApi } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiJquery, SiFirebase, SiVisualstudio, SiLinux } from "react-icons/si";
+import { SiJavascript, SiJquery, SiFirebase, SiVisualstudio, SiLinux, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaReact, FaGitAlt, FaCogs } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { RiTeamFill } from "react-icons/ri";
@@ -10,12 +10,14 @@ import { VscTerminalBash } from "react-icons/vsc";
 import { ImEyePlus } from "react-icons/im";
 import { MdWebStories } from "react-icons/md";
 
+
 import styles from "./toolbox.module.css";
 
 const Toolbox = () => {
   return(
     <div className={styles.toolboxContainer}>
       <h1>My toolbox &amp; things I can do</h1>
+      <div className={styles.underline}></div>
       <div className={styles.iconsContainer}>
         <div className={styles.boxIcon}><AiFillHtml5 className={styles.icon}/><p>HTML5</p></div>
         <div className={styles.boxIcon}><DiCss3 className={styles.icon}/><p>CSS3</p></div>
@@ -33,6 +35,12 @@ const Toolbox = () => {
         <div className={styles.boxIcon}><RiTeamFill className={styles.icon}/><p>Team working</p></div>
         <div className={styles.boxIcon}><ImEyePlus className={styles.icon}/><p>Aesthetic sense</p></div>
         <div className={styles.boxIcon}><VscTerminalBash className={styles.icon}/><p>Bash Shell</p></div>
+      </div>
+      <h2>My next steps</h2>
+      <div className={styles.underline}></div>
+      <div className={styles.iconsContainer}>
+        <div className={styles.boxIcon}><SiTypescript className={styles.icon} /><p>Typescript</p></div>
+        <div className={styles.boxIcon}><SiNextdotjs className={styles.icon} /><p>Next.js</p></div>
       </div>
     </div>
   )

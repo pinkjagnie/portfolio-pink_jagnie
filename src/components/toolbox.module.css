@@ -1,5 +1,5 @@
 .toolboxContainer {
-  height: 245vh;
+  height: 280vh;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -7,11 +7,19 @@
   color: whitesmoke;
 }
 
-.toolboxContainer h1 {
+.toolboxContainer h1, 
+.toolboxContainer h2 {
   width: 90vw;
   margin: 0 auto;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0.5rem 0;
   text-transform: uppercase;
+}
+
+.underline {
+  height: 1vh;
+  width: 85vw;
+  margin: 0 auto;
+  background-color: whitesmoke;
 }
 
 .iconsContainer {
@@ -20,6 +28,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .boxIcon {
