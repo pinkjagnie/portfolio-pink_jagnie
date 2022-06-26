@@ -68,8 +68,8 @@
   }
 
   .text {
-    padding: 3rem 2.5rem;
     width: 60vw;
+    padding: 3rem 2.5rem;
     font-size: 1.5rem;
   }
 
@@ -84,5 +84,32 @@
   .textFlip h1 {
     margin-top: 1.4rem;
     padding-right: 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerContainer {
+    position: relative;
+    height: 100vh;
+  }
+
+  .headerBack {
+    padding-top: 2rem;
+  }
+
+  .welcomePicture {
+    width: 20vw;
+    padding: 1rem 5rem 0 5rem;
+    margin: 0;
+  }
+
+  .text {
+    width: 50vw;
+    padding: 0.8rem 4rem;
+    margin: 0;
+  }
+
+  .underlineTitle {
+    width: 50vw;
   }
 }

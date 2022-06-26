@@ -180,6 +180,21 @@
 
 @media (min-width: 1024px) {
   .aboutContainer {
+    display: flex;
+    height: 100vh;
     background-color: #dfe4f4;
   }  
+
+  .aboutPhoto img {
+    width: 35vw;
+    height: auto;
+    padding-top: 5rem;
+    padding-left: 5rem;
+  }
+
+  .window {
+    width: 35vw;
+    height: 75vh;
+    margin: auto;
+  }
 }

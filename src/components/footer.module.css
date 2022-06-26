@@ -45,3 +45,13 @@
     line-height: 8vh;
   }
 }
+
+@media (min-width: 1024px) {
+  .footerContainer {
+    height: 10vh;
+  }
+
+  .footerContainer p {
+    line-height: 10vh;
+  }
+}

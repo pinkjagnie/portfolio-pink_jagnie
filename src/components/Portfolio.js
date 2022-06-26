@@ -29,6 +29,7 @@ const Portfolio = () => {
 
       <div className={styles.grid}>
 
+        <div className={styles.flexContainer}>
         <figure className={styles.effectApollo}>
           <img src={portfolioAxiom} alt="AxiomOS web"/>
           <figcaption>
@@ -44,10 +45,12 @@ const Portfolio = () => {
             <button><a href="https://github.com/pinkjagnie/axiom-os" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
           </div>
         </div>
+        </div>
 
+        <div className={styles.flexContainer}>
         <figure className={styles.effectApollo}>
-        <img src={portfolioAxiom} alt="AxiomOS Hub web"/>
-        <figcaption>
+          <img src={portfolioAxiom} alt="AxiomOS Hub web"/>
+          <figcaption>
             <p>Commercial website for the AxiomOS Hub</p>
           </figcaption>     
         </figure>
@@ -60,10 +63,12 @@ const Portfolio = () => {
             <button><a href="https://github.com/pinkjagnie/axiom-hub" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
           </div>
         </div>
+        </div>
 
+        <div className={styles.flexContainer}>
         <figure className={styles.effectApollo}>
-        <img src={portfolioAxiom} alt="Pink Jagnie portfolio"/>
-        <figcaption>
+          <img src={portfolioAxiom} alt="Pink Jagnie portfolio"/>
+          <figcaption>
             <p>My portfolio</p>
           </figcaption>     
         </figure>
@@ -76,10 +81,12 @@ const Portfolio = () => {
             <button><a href="https://github.com/pinkjagnie/portfolio-pink_jagnie" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
           </div>
         </div>
+        </div>
 
+        <div className={styles.flexContainer}>
         <figure className={styles.effectApollo}>
-        <img src={portfolioFlowers} alt="Flower store website"/>
-        <figcaption>
+          <img src={portfolioFlowers} alt="Flower store website"/>
+          <figcaption>
             <p>Website of flowerstore "Twój bukiet"</p>
           </figcaption>     
         </figure>
@@ -98,10 +105,12 @@ const Portfolio = () => {
             <button><a href="https://github.com/pinkjagnie/flowerstore-your-bouquet" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
           </div>
         </div>
+        </div>
 
+        <div className={styles.flexContainer}>
         <figure className={styles.effectApollo}>
-        <img src={portfolioWitch} alt="Fortune generator"/>
-        <figcaption>
+          <img src={portfolioWitch} alt="Fortune generator"/>
+          <figcaption>
             <p>Website where you will know your future</p>
           </figcaption>     
         </figure>
@@ -119,6 +128,7 @@ const Portfolio = () => {
             <button><a href="https://omnes-generator.netlify.app/" target="_blank" rel="noopener noreferrer">View it here</a></button>
             <button><a href="https://github.com/pinkjagnie/fortune-generator" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
           </div>
+        </div>
         </div>
 
       </div>

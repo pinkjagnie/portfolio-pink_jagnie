@@ -95,3 +95,13 @@
     height: 93vh;
   }
 }
+
+@media (min-width: 1024px) {
+  .toolboxContainer {
+    height: 105vh;
+  }
+
+  .toolboxContainer h1 {
+    padding-top: 2.5rem;
+  }
+}

@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
       <div className={styles.descriptionContact}>
         <p>When working on creating a website, I combine my diverse work experience:</p>
-        <p>- 9 years of experience in working with words - as a journalist and as a marketing manager</p>
+        <p>- 9 years of experience in creative working with words - as a journalist and as a marketing manager</p>
         <p>- 4 years of legal experience - which taught me logical thinking</p>
       </div>
       <div className={styles.contacts}>
