@@ -1,0 +1,66 @@
+.contactContainer {
+  height: 145vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.unicornImage {
+  position: relative;
+}
+
+.unicornImage img {
+  position: absolute;
+  top: 30vh;
+  right: -65vw;
+  width: auto;
+  height: 100vh;
+}
+
+.descriptionContact {
+  width: 80vw;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.contacts {
+  width: 50vw;
+  padding: 0 1.5rem;
+}
+
+.contacts h1 {
+  text-align: center;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  padding: 0 2rem;
+}
+
+.socialBox {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.socialBox a {
+  text-decoration: none;
+  color: #1f2b37;
+  /* padding: 0.5rem; */
+}
+
+.social {
+  font-size: 2.5rem;
+  padding-right: 1rem;
+  color: #ff68bc;
+}
+
+.mail {
+  font-size: 3.5rem;
+  padding: 0 1.5rem 0 0;
+  color: #ff68bc;
+}
+/* 
+.social p {
+  font-size: 1rem;
+} */

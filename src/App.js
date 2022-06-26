@@ -4,6 +4,8 @@ import Main from './components/Main';
 import About from './components/About';
 import Toolbox from './components/Toolbox';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -15,6 +17,8 @@ class App extends Component {
         <About />
         <Toolbox />
         <Portfolio />
+        <Contact />
+        <Footer />
       </div>
     );
   }

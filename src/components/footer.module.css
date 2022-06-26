@@ -1,0 +1,19 @@
+.footerContainer {
+  height: 10vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #1f2b37;
+  color: whitesmoke
+}
+
+.footerContainer p {
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.author {
+  color: #ff68bc;
+}
