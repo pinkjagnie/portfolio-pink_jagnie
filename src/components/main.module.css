@@ -12,6 +12,7 @@
   display: block;
   width: 80vw;
   padding: 1rem 2rem 0 2rem;
+  margin: 0 auto;
 }
 
 .text {
@@ -32,4 +33,56 @@
   display: flex;
   flex-basis: 70vw;
   padding-top: 0;
+}
+
+@media (min-width: 360px) {
+  .headerBack {
+    padding-top: 3rem;
+  }
+
+  .text {
+    padding: 0.5rem 2.5rem;
+  }
+}
+
+@media (min-width: 390px) {
+  .headerBack {
+    padding-top: 5rem;
+  }
+
+  .text {
+    padding: 2rem 2.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .text {
+    width: 70vw;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .welcomePicture {
+    width: 50vw;
+  }
+
+  .text {
+    padding: 3rem 2.5rem;
+    width: 60vw;
+    font-size: 1.5rem;
+  }
+
+  .underlineTitle {
+    width: 65vw;
+  }
+
+  .textFlip {
+    flex-basis: 60vw;
+  }
+
+  .textFlip h1 {
+    margin-top: 1.4rem;
+    padding-right: 0.5rem;
+  }
 }

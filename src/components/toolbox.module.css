@@ -10,8 +10,8 @@
 .toolboxContainer h1, 
 .toolboxContainer h2 {
   width: 90vw;
-  margin: 0 auto;
   padding: 1.5rem 0 0.5rem 0;
+  margin: 0 auto;
   text-transform: uppercase;
 }
 
@@ -27,8 +27,8 @@
   width: 80vw;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 auto;
   padding-top: 1rem;
+  margin: 0 auto;
 }
 
 .boxIcon {
@@ -40,4 +40,58 @@
 
 .icon {
   font-size: 4rem;
+}
+
+@media (min-width: 360px) and (min-height: 640px) {
+  .toolboxContainer {
+    height: 235vh;
+  }
+
+  .icon {
+    padding: 0 0.5rem;
+  }
+}
+
+
+@media (min-width: 360px) and (min-height: 740px) {
+  .toolboxContainer {
+    height: 205vh;
+  }
+
+  .icon {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (min-width: 390px) {
+  .toolboxContainer {
+    height: 180vh;
+  }
+
+  .toolboxContainer h1 {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 410px) {
+  .toolboxContainer {
+    height: 165vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .toolboxContainer {
+    height: 100vh;
+  }
+
+  .toolboxContainer h1, 
+  .toolboxContainer h2 {
+    width: 75vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .toolboxContainer {
+    height: 93vh;
+  }
 }

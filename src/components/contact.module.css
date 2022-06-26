@@ -14,12 +14,14 @@
   right: -65vw;
   width: auto;
   height: 100vh;
+  z-index: -1;
 }
 
 .descriptionContact {
   width: 80vw;
   padding: 0 1.5rem;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .contacts {
@@ -46,21 +48,138 @@
 .socialBox a {
   text-decoration: none;
   color: #1f2b37;
-  /* padding: 0.5rem; */
+}
+
+.socialBox:nth-of-type(3) a {
+  padding-top: 0.4rem;
 }
 
 .social {
-  font-size: 2.5rem;
   padding-right: 1rem;
+  font-size: 2.5rem;
   color: #ff68bc;
 }
 
 .mail {
-  font-size: 3.5rem;
   padding: 0 1.5rem 0 0;
+  font-size: 3.5rem;
   color: #ff68bc;
 }
+
+@media (min-width: 360px) and (min-height: 640px) {
+  .contactContainer {
+    height: 115vh;
+  }
+
+  .unicornImage img {
+    top: 20vh;
+    right: -65vw;
+  }
+
+  .socialContainer {
+    width: 45vw;
+  }
+  /* .mail {
+    height: auto;
+    width: 100%;
+  }
+   */
 /* 
-.social p {
-  font-size: 1rem;
-} */
+  .mail {
+    padding: 0 0.5rem 0 0;
+    font-size: 4.5rem;
+  }
+
+  .socialBox:nth-of-type(3) a {
+    padding-left: 1rem;
+  } */
+}
+
+@media (min-width: 360px) and (min-height: 740px) {
+  .contactContainer {
+    height: 100vh;
+  }
+  
+  .unicornImage img {
+    top: 15vh;
+    right: -83vw;
+  }
+
+  .socialContainer {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 390px) {
+  .contactContainer {
+    height: 90vh;
+  }
+
+  .descriptionContact {
+    width: 55vw;
+    margin: 0;
+  }
+
+  .unicornImage img {
+    top: -5vh;
+    right: -90vw;
+  }
+}
+
+@media (min-width: 410px) {
+  .contactContainer {
+    height: 85vh;
+  }
+
+  .unicornImage img {
+    top: -8vh;
+    right: -95vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .contactContainer {
+    height: 70vh;
+  }
+
+  .unicornImage img {
+    top: -8vh;
+    right: -60vw;
+  }
+
+  .descriptionContact {
+    padding: 1rem 3rem 0 3rem;
+  }
+
+  .contacts {
+    padding: 0 4rem;
+  }
+
+  .socialContainer {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactContainer {
+    height: 63vh;
+  }
+
+  .unicornImage img {
+    top: -12vh;
+    right: -40vw;
+  }
+
+  .descriptionContact {
+    width: 50vw;
+    padding: 1rem 5rem 0 5rem;
+  }
+
+  .contacts {
+    padding: 0 5rem;
+  }
+
+  .socialContainer {
+    padding: 0 5rem;
+  }
+}

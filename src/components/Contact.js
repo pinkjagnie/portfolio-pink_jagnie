@@ -3,7 +3,7 @@ import React from "react";
 import unicornImg from "../img/unicorn_contact_1200-1700.png";
 import { GrMail } from "react-icons/gr";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTelegram, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTelegram, faInstagramSquare , faGoogle} from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./contact.module.css";
 
@@ -15,13 +15,13 @@ const Contact = () => {
         </div>
       <div className={styles.descriptionContact}>
         <p>When working on creating a website, I combine my diverse work experience:</p>
-        <p>- 10 years of experience in working with words - as a journalist and as a marketing manager</p>
-        <p>- 3 years of legal experience - which taught me logical thinking</p>
+        <p>- 9 years of experience in working with words - as a journalist and as a marketing manager</p>
+        <p>- 4 years of legal experience - which taught me logical thinking</p>
       </div>
       <div className={styles.contacts}>
         <h1>Get in touch!</h1>
-          <p>I'm currently looking for new job opportunities. I'm available for cooperation &amp; employment.</p>
-          <p>You can reach me in several ways:</p>
+        <p>I'm currently looking for new job opportunities. I'm available for cooperation &amp; employment.</p>
+        <p>You can reach me in several ways:</p>
       </div>
       <div className={styles.socialContainer}>
         <div className={styles.socialBox}>
@@ -34,6 +34,7 @@ const Contact = () => {
         </div>
         <div className={styles.socialBox}>
           <GrMail className={styles.mail} />
+          {/* <FontAwesomeIcon icon={faGoogle} className={styles.social} /> */}
           <a href="mailto:me@pinkjagnie.pl">Send me an email on me@pinkjagnie.pl</a>
         </div>
         <div className={styles.socialBox}>
