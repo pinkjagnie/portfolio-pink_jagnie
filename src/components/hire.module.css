@@ -41,6 +41,12 @@
 
 @media (min-width: 410px) {
   .hireImage img {
+    transform: translateX(-18%);
+  }
+}
+
+@media (min-width: 600px) {
+  .hireImage img {
     transform: translateX(-6%);
   }
 }

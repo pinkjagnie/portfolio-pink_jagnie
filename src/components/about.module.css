@@ -208,6 +208,17 @@
   
   .window {
     width: 30vw;
-    height: 60vh;
+    height: 62vh;
+  }
+}
+
+@media (min-width: 1366px) {
+  .aboutPhoto img {
+    padding-left: 10rem;
+  }
+
+  .window {
+    width: 25vw;
+    height: 68vh;
   }
 }

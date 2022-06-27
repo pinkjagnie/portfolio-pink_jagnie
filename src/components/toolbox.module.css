@@ -107,11 +107,27 @@
 }
 
 @media (min-width: 1280px) {
+   .toolboxContainer {
+    height: 105vh;
+  }
+
+  .iconsContainer {
+    width: 70vw;
+  }
+
   .toolboxContainer h1 {
     padding-top: 4rem;
   }
 
   .underline {
     margin-bottom: 0.5rem;
+  }
+
+  h2 + .underline {
+    width: 70vw;
+  }
+
+  h2 ~ .iconsContainer {
+    width: 30vw;
   }
 }

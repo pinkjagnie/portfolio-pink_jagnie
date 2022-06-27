@@ -30,12 +30,14 @@
 
 .grid .flexContainer figure {
 	position: relative;
-  width: 48%;
+  width: 100%;
 	height: auto;
   max-width: 480px;
 	max-height: 360px;
   margin: 10px 1%;
+  /* margin: 0 auto; */
   background-color: #3085a3;
+  text-align: center;
 	cursor: pointer;
 	overflow: hidden;
 }
@@ -43,7 +45,7 @@
 .grid .flexContainer figure img {
 	position: relative;
   display: block;
-  width: 80vw;
+  width: 90vw;
   min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
@@ -230,7 +232,7 @@ button:hover a {
     height: 310vh;
   }
 
-	figure.effectApollo {
+	.grid .flexContainer figure.effectApollo {
     margin: 0 auto;
   }
 }
@@ -249,7 +251,7 @@ button:hover a {
     display: flex;
     width: 90vw;
     height: 70vh;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     padding-top: 1rem;
     padding-left: 3rem;
     margin: 0 auto;
@@ -280,10 +282,29 @@ button:hover a {
 
 @media (min-width: 1280px) {
   .portfolioContainer {
-    height: 330vh;
+    height: 333vh;
+  }
+
+  .portfolioContainer h1 {
+    padding-top: 3.5rem;
+  }
+
+  .underline {
+    margin-bottom: 1.5rem;
   }
 
   .flexContainer {
     height: 60vh;
+  }
+}
+
+@media (min-width: 1366px) {
+  .portfolioContainer {
+    height: 340vh;
+  }
+
+  .flexContainer {
+    width: 80vw;
+    padding-left: 8rem;
   }
 }

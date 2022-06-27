@@ -91,6 +91,8 @@
   .headerContainer {
     position: relative;
     height: 100vh;
+    background-image: url("../img/4cover_background.png");
+    color: whitesmoke
   }
 
   .headerBack {
@@ -111,6 +113,7 @@
 
   .underlineTitle {
     width: 50vw;
+    background-color: whitesmoke;
   }
 }
 
