@@ -249,6 +249,7 @@ button:hover a {
     display: flex;
     width: 90vw;
     height: 70vh;
+    justify-content: space-around;
     padding-top: 1rem;
     padding-left: 3rem;
     margin: 0 auto;
@@ -274,5 +275,15 @@ button:hover a {
 
   button {
     width: 15vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .portfolioContainer {
+    height: 330vh;
+  }
+
+  .flexContainer {
+    height: 60vh;
   }
 }

@@ -1,9 +1,10 @@
 import React from "react";
 
 import unicornImg from "../img/unicorn_contact_1200-1700.png";
-import { GrMail } from "react-icons/gr";
+import sheepImg from "../img/flying_sheep_800-800.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTelegram, faInstagramSquare , faGoogle} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faTelegram, faInstagramSquare} from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./contact.module.css";
 
@@ -11,8 +12,9 @@ const Contact = () => {
   return(
     <div className={styles.contactContainer}>
       <div className={styles.unicornImage}>
-          <img src={unicornImg} alt="unicorn" />
-        </div>
+        <img src={unicornImg} alt="unicorn" />
+        <img src={sheepImg} alt="sheep image" className={styles.lamb} />
+      </div>
       <div className={styles.descriptionContact}>
         <p>When working on creating a website, I combine my diverse work experience:</p>
         <p>- 9 years of experience in creative working with words - as a journalist and as a marketing manager</p>
@@ -33,8 +35,8 @@ const Contact = () => {
           <a href="https://t.me/PinkJagnie" target="_blank" rel="noopener noreferrer">@PinkJagnie on Telegram</a>
         </div>
         <div className={styles.socialBox}>
-          <GrMail className={styles.mail} />
-          {/* <FontAwesomeIcon icon={faGoogle} className={styles.social} /> */}
+          {/* <GrMail className={styles.mail} /> */}
+          <FontAwesomeIcon icon={faEnvelope} className={styles.social} />
           <a href="mailto:me@pinkjagnie.pl">Send me an email on me@pinkjagnie.pl</a>
         </div>
         <div className={styles.socialBox}>

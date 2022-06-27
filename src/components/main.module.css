@@ -113,3 +113,13 @@
     width: 50vw;
   }
 }
+
+@media (min-width: 1280px) {
+  .welcomePicture {
+    padding: 1rem 6rem 0 6rem;
+  }
+
+  .text {
+    padding: 0.8rem 5rem;
+  }
+}
