@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import ScrollToTop from './components/ScrollToTop';
 import Main from './components/Main';
 import About from './components/About';
 import Toolbox from './components/Toolbox';
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ScrollToTop />
         <Main />    
         <About />
         <Toolbox />
