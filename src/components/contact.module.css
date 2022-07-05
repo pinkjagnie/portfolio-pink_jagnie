@@ -1,7 +1,7 @@
 .contactContainer {
   height: 145vh;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* .sheepImage {
@@ -221,6 +221,14 @@
 
   .social,
   .mail {
+    color: #ac0560;
+  }
+
+  .social:hover {
+    color: #1f2b37;
+  }
+
+  .socialBox a:hover {
     color: #ac0560;
   }
 }

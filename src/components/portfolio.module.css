@@ -1,7 +1,7 @@
 .portfolioContainer {
   height: 525vh;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .portfolioContainer h1 {
@@ -74,13 +74,13 @@
 	height: 100%;
 }
 
-.grid .flexContainer figure figcaption > a {
+/* .grid .flexContainer figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
-}
+} */
 
 .grid .flexContainer figure p {
 	margin: 0;
@@ -117,8 +117,8 @@ figure.effectApollo figcaption::before {
 
 figure.effectApollo p {
 	position: absolute;
-	right: 15%;
-	bottom: 20%;
+	right: 20%;
+	bottom: 25%;
   max-width: 150px;
 	padding: 0 1em;
   margin: 3em;

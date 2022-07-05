@@ -41,7 +41,7 @@ const Portfolio = () => {
             <p>Commercial project. Website for a mobile operating system which is helping users stay private in a world where everyone follows you. The project includes HTTP requests (subscribing to the mailing list) and a countdown to the premiere of the new version of the system.</p>
             {standardSetTools}
             <div className={styles.linksContainer}>
-              <button><a href="http://web.axiomos.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
+              <button><a href="http://axiomos.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
               <button><a href="https://github.com/pinkjagnie/axiom-os" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
           </figure>
           <div className={styles.projectDescription}>
             <h2>AxiomOS Hub</h2>
-            <p>Commercial project. This website is part of AxiomOS where the user can view application privacy reports and analyzes. The project includes search bar and Lorem ipsum dolor............. </p>
+            <p>Commercial project. This website is part of AxiomOS where the user can view application privacy reports and analyzes. The project includes React Router, HTTP requests (search bar and the ability to add your application to the list).</p>
             {standardSetTools}
             <div className={styles.linksContainer}>
               <button><a href="http://web.axiomos.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
@@ -74,7 +74,7 @@ const Portfolio = () => {
           </figure>
           <div className={styles.projectDescription}>
             <h2>Pink Jagnie portfolio</h2>
-            <p>A portfolio that is not boring. A website that, apart from my skills, also shows my personality.</p>
+            <p>A portfolio that is not boring. A website that, apart from my skills, also shows my personality. Built with React.</p>
             {standardSetTools}
             <div className={styles.linksContainer}>
               <button><a href="http://pinkjagnie.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
@@ -92,7 +92,7 @@ const Portfolio = () => {
           </figure>
           <div className={styles.projectDescription}>
             <h2>Flowerstore "Twój bukiet"</h2>
-            <p>The beginning of my journey. A website of fictional flowerstore built to learn CSS, using jQuery.</p>
+            <p>The beginning of my journey. A website of fictional flowerstore built to learn CSS, using some jQuery.</p>
             <div className={styles.boxIcon}>
               <AiFillHtml5 className={styles.icon}/>
               <DiCss3 className={styles.icon}/>

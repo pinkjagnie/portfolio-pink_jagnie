@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("../img/cover_background.png");
+  background-image: url("../img/cover_background_1000-943.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -91,8 +91,8 @@
   .headerContainer {
     position: relative;
     height: 100vh;
-    background-image: url("../img/4cover_background.png");
-    color: whitesmoke
+    background-image: url("../img/5cover_background.png");
+    color: #1f2b37;
   }
 
   .headerBack {
@@ -113,7 +113,7 @@
 
   .underlineTitle {
     width: 50vw;
-    background-color: whitesmoke;
+    background-color: #1f2b37;
   }
 }
 
