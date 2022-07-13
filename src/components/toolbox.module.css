@@ -52,7 +52,6 @@
   }
 }
 
-
 @media (min-width: 360px) and (min-height: 740px) {
   .toolboxContainer {
     min-height: 205vh;
@@ -75,7 +74,7 @@
 
 @media (min-width: 410px) {
   .toolboxContainer {
-    min-height: 165vh;
+    min-height: 170vh;
   }
 }
 

@@ -139,7 +139,7 @@
 
 @media (min-width: 410px) {
   .aboutContainer {
-    min-height: 110vh;
+    min-height: 115vh;
     width: 100%;
   }
 
@@ -208,7 +208,6 @@
   }
   
   .window {
-    /* width: 36vw; */
     min-height: 64vh;
   }
 }
