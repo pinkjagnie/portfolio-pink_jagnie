@@ -1,7 +1,8 @@
 .aboutContainer {
-  height: 180vh;
+  min-height: 180vh;
   width: 100%;
   background-color: #f9f9f9;
+  overflow-x: hidden;
 }
 
 .aboutPhoto img {
@@ -16,7 +17,7 @@
 
 .window {
   width: 80vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   margin-top: 2rem;
   border: 1px solid #acacac;
@@ -102,55 +103,55 @@
 
 @media (min-width: 360px) and (min-height: 640px) {
   .aboutContainer {
-    height: 150vh;
+    min-height: 150vh;
     width: 100%;
   }
 
   .window {
     width: 80vw;
-    height: 75vh;
+    min-height: 75vh;
   }
 }
 
 @media (min-width: 360px) and (min-height: 740px) {
   .aboutContainer {
-    height: 130vh;
+    min-height: 130vh;
     width: 100%;
   }
 
   .window {
     width: 80vw;
-    height: 65vh;
+    min-height: 65vh;
   }
 }
 
 @media (min-width: 390px) {
   .aboutContainer {
-    height: 120vh;
+    min-height: 120vh;
     width: 100%;
   }
 
   .window {
     width: 80vw;
-    height: 58vh;
+    min-height: 58vh;
   }
 }
 
 @media (min-width: 410px) {
   .aboutContainer {
-    height: 110vh;
+    min-height: 110vh;
     width: 100%;
   }
 
   .window {
     width: 80vw;
-    height: 52vh;
+    min-height: 52vh;
   }
 }
 
 @media (min-width: 600px) {
   .aboutContainer {
-    height: 105vh;
+    min-height: 105vh;
     width: 100%;
   }
 
@@ -162,26 +163,26 @@
 
  .window {
     width: 70vw;
-    height: 42vh;
+    min-height: 42vh;
   }  
 }
 
 @media (min-width: 768px) {
   .aboutContainer {
-    height: 112vh;
+    min-height: 112vh;
     width: 100%;
   }
 
   .window {
     width: 65vw;
-    height: 38vh;
+    min-height: 38vh;
   }
 }
 
 @media (min-width: 1024px) {
   .aboutContainer {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #dfe4f4;
   }  
 
@@ -194,7 +195,7 @@
 
   .window {
     width: 35vw;
-    height: 75vh;
+    min-height: 62vh;
     margin: auto;
   }
 }
@@ -207,8 +208,8 @@
   }
   
   .window {
-    width: 30vw;
-    height: 62vh;
+    /* width: 36vw; */
+    min-height: 64vh;
   }
 }
 
@@ -219,6 +220,6 @@
 
   .window {
     width: 25vw;
-    height: 68vh;
+    min-height: 68vh;
   }
 }

@@ -35,7 +35,6 @@ const Contact = () => {
           <a href="https://t.me/PinkJagnie" target="_blank" rel="noopener noreferrer">@PinkJagnie on Telegram</a>
         </div>
         <div className={styles.socialBox}>
-          {/* <GrMail className={styles.mail} /> */}
           <FontAwesomeIcon icon={faEnvelope} className={styles.social} />
           <a href="mailto:me@pinkjagnie.pl">Send me an email on me@pinkjagnie.pl</a>
         </div>

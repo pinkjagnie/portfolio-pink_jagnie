@@ -1,5 +1,5 @@
 .contactContainer {
-  height: 145vh;
+  min-height: 145vh;
   width: 100%;
   overflow-x: hidden;
 }
@@ -72,7 +72,7 @@
 
 @media (min-width: 360px) and (min-height: 640px) {
   .contactContainer {
-    height: 115vh;
+    min-height: 115vh;
   }
 
   .unicornImage img {
@@ -87,7 +87,7 @@
 
 @media (min-width: 360px) and (min-height: 740px) {
   .contactContainer {
-    height: 100vh;
+    min-height: 100vh;
   }
   
   .unicornImage img {
@@ -102,7 +102,7 @@
 
 @media (min-width: 390px) {
   .contactContainer {
-    height: 90vh;
+    min-height: 90vh;
   }
 
   .descriptionContact {
@@ -118,18 +118,18 @@
 
 @media (min-width: 410px) {
   .contactContainer {
-    height: 85vh;
+    min-height: 85vh;
   }
 
   .unicornImage img {
     top: -8vh;
-    right: -95vw;
+    right: -92vw;
   }
 }
 
 @media (min-width: 600px) {
   .contactContainer {
-    height: 70vh;
+    min-height: 70vh;
   }
 
   .unicornImage img {
@@ -149,7 +149,7 @@
 
 @media (min-width: 768px) {
   .contactContainer {
-    height: 63vh;
+    min-height: 63vh;
   }
 
   .unicornImage img {
@@ -170,7 +170,7 @@
 
 @media (min-width: 1024px) {
   .contactContainer {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .unicornImage img {
@@ -198,8 +198,9 @@
 
   .socialContainer {
     position: relative;
+    justify-content: space-around;
     width: 35vw;
-    height: 35vh;
+    height: 30vh;
     padding: 2.5rem 1.5rem 2rem 2rem;
     margin-left: 10rem;
     border-radius: 5px;
@@ -222,6 +223,10 @@
   .social,
   .mail {
     color: #ac0560;
+  }
+
+  .socialBox a {
+    line-height: 2.5rem;
   }
 
   .social:hover {
@@ -249,8 +254,9 @@
 
   .socialContainer {
     width: 30vw;
-    height: 38vh;
+    height: 35vh;
     padding: 2rem 1.5rem 1.3rem 2.5rem;
     margin-left: 20rem;
+    margin-top: 2.5rem;
   }
 }

@@ -1,7 +1,7 @@
 .toolboxContainer {
-  height: 280vh;
+  min-height: 280vh;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
   background-color: #1f2b37;
   color: whitesmoke;
@@ -44,7 +44,7 @@
 
 @media (min-width: 360px) and (min-height: 640px) {
   .toolboxContainer {
-    height: 235vh;
+    min-height: 235vh;
   }
 
   .icon {
@@ -55,7 +55,7 @@
 
 @media (min-width: 360px) and (min-height: 740px) {
   .toolboxContainer {
-    height: 205vh;
+    min-height: 205vh;
   }
 
   .icon {
@@ -65,7 +65,7 @@
 
 @media (min-width: 390px) {
   .toolboxContainer {
-    height: 180vh;
+    min-height: 180vh;
   }
 
   .toolboxContainer h1 {
@@ -75,13 +75,13 @@
 
 @media (min-width: 410px) {
   .toolboxContainer {
-    height: 165vh;
+    min-height: 165vh;
   }
 }
 
 @media (min-width: 600px) {
   .toolboxContainer {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .toolboxContainer h1, 
@@ -92,23 +92,36 @@
 
 @media (min-width: 768px) {
   .toolboxContainer {
-    height: 93vh;
+    min-height: 93vh;
+  }
+
+  .iconsContainer {
+    display: flex;
+    width: 70vw;
   }
 }
 
 @media (min-width: 1024px) {
   .toolboxContainer {
-    height: 105vh;
+    min-height: 105vh;
   }
 
   .toolboxContainer h1 {
     padding-top: 2.5rem;
   }
+
+  .iconsContainer {
+    width: 88vw;
+  }
+
+  h2 ~ .iconsContainer {
+    width: 40vw;
+  }
 }
 
 @media (min-width: 1280px) {
    .toolboxContainer {
-    height: 105vh;
+    min-height: 105vh;
   }
 
   .iconsContainer {

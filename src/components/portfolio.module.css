@@ -1,5 +1,5 @@
 .portfolioContainer {
-  height: 525vh;
+  min-height: 525vh;
   width: 100%;
   overflow-x: hidden;
 }
@@ -195,31 +195,31 @@ button:hover a {
 
 @media (min-width: 360px) and (min-height: 640px) {
   .portfolioContainer {
-    height: 445vh;
+    min-height: 445vh;
   }
 }
 
 @media (min-width: 360px) and (min-height: 740px) {
   .portfolioContainer {
-    height: 385vh;
+    min-height: 385vh;
   }
 }
 
 @media (min-width: 390px) {
 	.portfolioContainer {
-	  height: 345vh;
+	  min-height: 345vh;
 	}
 }
 
 @media (min-width: 410px) {
 	.portfolioContainer {
-	  height: 320vh;
+	  min-height: 320vh;
 	}
 }
 
 @media (min-width: 600px) {
   .portfolioContainer {
-	  height: 340vh;
+	  min-height: 340vh;
 	}
 
 	.portfolioContainer h1 {
@@ -229,7 +229,7 @@ button:hover a {
 
 @media (min-width: 768px) {
   .portfolioContainer {
-    height: 310vh;
+    min-height: 310vh;
   }
 
 	.grid .flexContainer figure.effectApollo {
@@ -239,7 +239,11 @@ button:hover a {
 
 @media (min-width: 1024px) {
   .portfolioContainer {
-    height: 375vh;
+    min-height: 355vh;
+  }
+
+  .underline {
+    margin-bottom: 2rem;
   }
 
   .grid {
@@ -250,7 +254,7 @@ button:hover a {
   .flexContainer {
     display: flex;
     width: 90vw;
-    height: 70vh;
+    min-height: 65vh;
     /* justify-content: space-around; */
     padding-top: 1rem;
     padding-left: 3rem;
@@ -282,16 +286,16 @@ button:hover a {
 
 @media (min-width: 1280px) {
   .portfolioContainer {
-    height: 333vh;
+    min-height: 333vh;
   }
 
   .portfolioContainer h1 {
     padding-top: 3.5rem;
   }
 
-  .underline {
+  /* .underline {
     margin-bottom: 1.5rem;
-  }
+  } */
 
   .flexContainer {
     height: 60vh;
@@ -300,7 +304,7 @@ button:hover a {
 
 @media (min-width: 1366px) {
   .portfolioContainer {
-    height: 340vh;
+    min-height: 340vh;
   }
 
   .flexContainer {

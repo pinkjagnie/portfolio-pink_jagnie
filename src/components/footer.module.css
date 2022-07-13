@@ -4,7 +4,8 @@
   box-sizing: border-box;
   padding: 0.5rem;
   background-color: #1f2b37;
-  color: whitesmoke
+  color: whitesmoke;
+  overflow-y: hidden;
 }
 
 .footerContainer p {

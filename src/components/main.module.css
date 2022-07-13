@@ -6,6 +6,7 @@
   background-image: url("../img/cover_background_1000-943.png");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .welcomePicture {
