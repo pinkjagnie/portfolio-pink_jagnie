@@ -1,6 +1,8 @@
 import React from "react";
 
 import portfolioAxiom from "../img/portfolio1_1000-750.png";
+import portfolioAxiomHub from "../img/portfolio2_1000-750.png";
+import portfolioJagnie from "../img/portfolio3_1000-750.png";
 import portfolioFlowers from "../img/portfolio4_1000-750.png";
 import portfolioWitch from "../img/portfolio5_1000-750.png";
 
@@ -49,7 +51,7 @@ const Portfolio = () => {
 
         <div className={styles.flexContainer}>
           <figure className={styles.effectApollo}>
-            <img src={portfolioAxiom} alt="AxiomOS Hub web"/>
+            <img src={portfolioAxiomHub} alt="AxiomOS Hub web"/>
             <figcaption>
               <p>Commercial website for the AxiomOS Hub</p>
             </figcaption>     
@@ -59,7 +61,7 @@ const Portfolio = () => {
             <p>Commercial project. This website is part of AxiomOS where the user can view application privacy reports and analyzes. The project includes React Router, HTTP requests (search bar and the ability to add your application to the list).</p>
             {standardSetTools}
             <div className={styles.linksContainer}>
-              <button><a href="http://web.axiomos.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
+              <button><a href="http://hub.axiomos.pl/" target="_blank" rel="noopener noreferrer">View it here</a></button>
               <button><a href="https://github.com/pinkjagnie/axiom-hub" target="_blank" rel="noopener noreferrer">View GitHub repo</a></button>
             </div>
           </div>
@@ -67,7 +69,7 @@ const Portfolio = () => {
 
         <div className={styles.flexContainer}>
           <figure className={styles.effectApollo}>
-            <img src={portfolioAxiom} alt="Pink Jagnie portfolio"/>
+            <img src={portfolioJagnie} alt="Pink Jagnie portfolio"/>
             <figcaption>
               <p>My portfolio</p>
             </figcaption>     

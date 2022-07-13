@@ -52,7 +52,7 @@
 }
 
 .grid .flexContainer figure figcaption {
-	padding: 2em;
+	padding: 0.3rem;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -117,8 +117,8 @@ figure.effectApollo figcaption::before {
 
 figure.effectApollo p {
 	position: absolute;
-	right: 20%;
-	bottom: 25%;
+	right: 10%;
+	bottom: 15%;
   max-width: 150px;
 	padding: 0 1em;
   margin: 3em;
